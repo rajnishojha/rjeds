@@ -227,9 +227,9 @@
     "id": "teaser",
     "fields": [
       {
-        "component": "select",
+        "component": "multiselect",
         "name": "classes",
-        "value": "",
+        "value": "array",
         "label": "Teaser options",
         "description": "",
         "valueType": "string",
