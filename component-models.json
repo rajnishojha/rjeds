@@ -227,9 +227,9 @@
     "id": "teaser",
     "fields": [
       {
-        "component": "select",
+        "component": "multiselect",
         "name": "classes",
-        "value": "",
+        "value": "array",
         "label": "Teaser options",
         "description": "",
         "valueType": "string",
@@ -241,6 +241,10 @@
           {
             "name": "Side-by-side",
             "value": "side-by-side"
+          },
+          {
+            "name": "Default Test",
+            "value": "mydefault"
           }
         ]
       },

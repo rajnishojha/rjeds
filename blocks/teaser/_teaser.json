@@ -9,7 +9,7 @@
                     "template": {
                         "name": "Teaser",
                         "model": "teaser",
-                        "textContent_text": "<h2>Enter a title</h2><p>...And body text here!</p>",
+                        "textContent_text": "<h2>Enter a title Multi </h2><p>...And body text here!</p>",
                         "textContent_cta": "/",
                         "textContent_ctaText": "Click me!"
                     }
@@ -22,9 +22,9 @@
         "id": "teaser", 
         "fields": [
             {
-                "component": "select",
+                "component": "multiselect",
                 "name": "classes",
-                "value": "",
+                "value": "array",
                 "label": "Teaser options",
                 "description": "",
                 "valueType": "string",
@@ -36,6 +36,10 @@
                     {
                         "name": "Side-by-side",
                         "value": "side-by-side"
+                    },
+                     {
+                        "name": "Default Test",
+                        "value": "mydefault"
                     }
                 ]
             },
